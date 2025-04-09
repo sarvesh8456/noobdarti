@@ -1,0 +1,27 @@
+t=2025-04-06T17:37:02+0000 lvl=info msg="no configuration paths supplied"
+t=2025-04-06T17:37:02+0000 lvl=info msg="ignoring default config path, could not stat it" path=/home/codespace/.ngrok2/ngrok.yml err="stat /home/codespace/.ngrok2/ngrok.yml: no such file or directory"
+t=2025-04-06T17:37:02+0000 lvl=warn msg="can't bind default web address, trying alternatives" obj=web addr=127.0.0.1:4040
+t=2025-04-06T17:37:02+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4045
+t=2025-04-06T17:37:12+0000 lvl=eror msg="failed to reconnect session" obj=csess id=e3d25675bc3c err="dial tcp 3.133.228.214:443: i/o timeout"
+t=2025-04-06T17:37:22+0000 lvl=eror msg="failed to reconnect session" obj=csess id=e3d25675bc3c err="dial tcp 3.133.228.214:443: i/o timeout"
+t=2025-04-06T17:37:33+0000 lvl=eror msg="failed to reconnect session" obj=csess id=e3d25675bc3c err="dial tcp 3.133.228.214:443: i/o timeout"
+t=2025-04-06T17:37:44+0000 lvl=eror msg="failed to reconnect session" obj=csess id=e3d25675bc3c err="dial tcp 3.20.27.198:443: i/o timeout"
+t=2025-04-06T17:37:45+0000 lvl=eror msg="failed to reconnect session" obj=csess id=e3d25675bc3c err="resolved tunnel.us.ngrok.com has no records"
+t=2025-04-06T17:37:57+0000 lvl=eror msg="failed to reconnect session" obj=csess id=e3d25675bc3c err="dial tcp 3.20.27.198:443: i/o timeout"
+t=2025-04-06T17:38:10+0000 lvl=eror msg="failed to reconnect session" obj=csess id=e3d25675bc3c err="dial tcp 3.134.73.173:443: i/o timeout"
+t=2025-04-06T17:38:25+0000 lvl=eror msg="failed to reconnect session" obj=csess id=e3d25675bc3c err="dial tcp 3.20.27.198:443: i/o timeout"
+t=2025-04-06T17:38:31+0000 lvl=eror msg="failed to reconnect session" obj=csess id=e3d25675bc3c err="resolved tunnel.us.ngrok.com has no records"
+t=2025-04-06T17:38:52+0000 lvl=eror msg="failed to reconnect session" obj=csess id=e3d25675bc3c err="dial tcp 3.12.62.205:443: i/o timeout"
+t=2025-04-06T17:39:10+0000 lvl=eror msg="failed to auth" obj=tunnels.session err="Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n"
+t=2025-04-06T17:39:10+0000 lvl=eror msg="failed to reconnect session" obj=csess id=e3d25675bc3c err="Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n"
+t=2025-04-06T17:39:10+0000 lvl=eror msg="session closing" obj=tunnels.session err="Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n"
+t=2025-04-06T17:39:10+0000 lvl=info msg="received stop request" obj=app stopReq="{err:0xc0000e8de0 restart:false}"
+t=2025-04-06T17:39:10+0000 lvl=eror msg="terminating with error" obj=app err="Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n"
+t=2025-04-06T17:39:10+0000 lvl=crit msg="command failed" err="Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n"
+Usage of ngrok requires a verified account and authtoken.
+
+Sign up for an account: https://dashboard.ngrok.com/signup
+Install your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken
+
+ERR_NGROK_4018
+

@@ -1,0 +1,227 @@
+[13:17:31] [ServerMain/INFO]: Building unoptimized datafixer
+[13:17:33] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:17:35] [ServerMain/INFO]: Loaded 7 recipes
+[13:17:38] [Server thread/INFO]: Starting minecraft server version 1.19
+[13:17:38] [Server thread/INFO]: Loading properties
+[13:17:38] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
+[13:17:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:17:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:17:38] [Server thread/INFO]: Default game type: SURVIVAL
+[13:17:38] [Server thread/INFO]: Generating keypair
+[13:17:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:17:39] [Server thread/INFO]: Using epoll channel type
+[13:17:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:17:39] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[13:17:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:17:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:17:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:17:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:17:39] [Server thread/INFO]: Preparing level "world"
+[13:17:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:17:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:17:59] [Server thread/INFO]: Time elapsed: 496 ms
+[13:17:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:18:00] [Server thread/INFO]: Time elapsed: 898 ms
+[13:18:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:18:01] [Server thread/INFO]: Time elapsed: 930 ms
+[13:18:01] [Server thread/INFO]: Running delayed init tasks
+[13:18:01] [Server thread/INFO]: Done (23.366s)! For help, type "help"
+[13:18:01] [Server thread/INFO]: Timings Reset
+[13:25:54] [User Authenticator #1/INFO]: UUID of player Player352 is d944aee7-2684-33ce-b4ec-6dde00bdf73f
+[13:25:55] [Server thread/INFO]: Player352 joined the game
+[13:25:55] [Server thread/INFO]: Player352[/[0:0:0:0:0:0:0:1%0]:59588] logged in with entity id 419 at ([world]8.5, 79.0, -11.5)
+[13:26:05] [Server thread/INFO]: Player352 issued server command: /register password password
+[13:26:07] [Server thread/INFO]: Player352 issued server command: /login password
+[13:26:09] [User Authenticator #1/INFO]: UUID of player _xXx_hades_xXx_ is b4585579-eda8-363d-adc4-ae8035ca0011
+[13:26:09] [Server thread/INFO]: _xXx_hades_xXx_ joined the game
+[13:26:09] [Server thread/INFO]: _xXx_hades_xXx_[/[0:0:0:0:0:0:0:1%0]:45970] logged in with entity id 559 at ([world]2.5, 79.0, 6.5)
+[13:26:14] [User Authenticator #1/INFO]: UUID of player Player35 is d7375cbd-a871-343c-8b61-9df743b3fcf0
+[13:26:14] [Server thread/INFO]: Player35 joined the game
+[13:26:14] [Server thread/INFO]: Player35[/[0:0:0:0:0:0:0:1%0]:45984] logged in with entity id 608 at ([world]12.5, 82.0, -4.5)
+[13:26:19] [User Authenticator #1/INFO]: UUID of player Player967 is 6772ffa7-3606-3001-96a1-ec7bc4fa58f6
+[13:26:19] [Server thread/INFO]: Player967 joined the game
+[13:26:19] [Server thread/INFO]: Player967[/[0:0:0:0:0:0:0:1%0]:42370] logged in with entity id 609 at ([world]-0.5, 71.0, -6.5)
+[13:26:24] [User Authenticator #1/INFO]: UUID of player Player394 is 9662db8b-9062-3256-9f5d-83caa676c3d7
+[13:26:24] [Server thread/INFO]: Player394 joined the game
+[13:26:24] [Server thread/INFO]: Player394[/[0:0:0:0:0:0:0:1%0]:42372] logged in with entity id 611 at ([world]15.5, 85.0, -5.5)
+[13:26:24] [Server thread/INFO]: Player35 issued server command: /register password password
+[13:26:26] [Server thread/INFO]: Player35 issued server command: /login password
+[13:26:29] [User Authenticator #1/INFO]: UUID of player Player879 is beda00ca-0100-3611-a6b5-c0b153e0dc2e
+[13:26:29] [Server thread/INFO]: Player879 joined the game
+[13:26:29] [Server thread/INFO]: Player879[/[0:0:0:0:0:0:0:1%0]:54082] logged in with entity id 620 at ([world]-0.5, 78.0, 4.5)
+[13:26:29] [Server thread/INFO]: Player967 issued server command: /register password password
+[13:26:31] [Server thread/INFO]: Player967 issued server command: /login password
+[13:26:34] [User Authenticator #1/INFO]: UUID of player Player245 is 9f83efe4-f945-3a62-8c8a-b62cdf1ee258
+[13:26:34] [Server thread/INFO]: Player245 joined the game
+[13:26:34] [Server thread/INFO]: Player245[/[0:0:0:0:0:0:0:1%0]:54084] logged in with entity id 628 at ([world]8.5, 78.0, -13.5)
+[13:26:34] [Server thread/INFO]: Player394 issued server command: /register password password
+[13:26:36] [Server thread/INFO]: Player394 issued server command: /login password
+[13:26:39] [User Authenticator #1/INFO]: UUID of player Player274 is 171ff2be-e113-3c14-a482-20b6c4712810
+[13:26:39] [Server thread/INFO]: Player274 joined the game
+[13:26:39] [Server thread/INFO]: Player274[/[0:0:0:0:0:0:0:1%0]:53024] logged in with entity id 644 at ([world]5.5, 79.0, -0.5)
+[13:26:39] [Server thread/INFO]: Player879 issued server command: /register password password
+[13:26:41] [Server thread/INFO]: Player879 issued server command: /login password
+[13:26:44] [User Authenticator #1/INFO]: UUID of player Player945 is 15798b51-9c30-3f35-8be6-3613cb7b02a9
+[13:26:44] [Server thread/INFO]: Player945 joined the game
+[13:26:44] [Server thread/INFO]: Player945[/[0:0:0:0:0:0:0:1%0]:53038] logged in with entity id 650 at ([world]9.5, 79.0, -8.5)
+[13:26:44] [Server thread/INFO]: Player245 issued server command: /register password password
+[13:26:46] [Server thread/INFO]: Player245 issued server command: /login password
+[13:26:49] [User Authenticator #1/INFO]: UUID of player Player982 is 7d461d5d-f429-32b0-a043-0156fa837406
+[13:26:49] [Server thread/INFO]: Player982 joined the game
+[13:26:49] [Server thread/INFO]: Player982[/[0:0:0:0:0:0:0:1%0]:58438] logged in with entity id 662 at ([world]11.5, 81.0, -6.5)
+[13:26:49] [Server thread/INFO]: Player274 issued server command: /register password password
+[13:26:51] [Server thread/INFO]: Player274 issued server command: /login password
+[13:26:54] [User Authenticator #1/INFO]: UUID of player Player180 is 2e271c1a-d081-32c8-843a-f79146152093
+[13:26:54] [Server thread/INFO]: Player180 joined the game
+[13:26:54] [Server thread/INFO]: Player180[/[0:0:0:0:0:0:0:1%0]:58442] logged in with entity id 669 at ([world]13.5, 83.0, -9.5)
+[13:26:54] [Server thread/INFO]: Player945 issued server command: /register password password
+[13:26:56] [Server thread/INFO]: Player945 issued server command: /login password
+[13:26:59] [User Authenticator #1/INFO]: UUID of player Player913 is 90ee7131-905c-3e5a-b4c0-60424db8bd36
+[13:26:59] [Server thread/INFO]: Player913 joined the game
+[13:26:59] [Server thread/INFO]: Player913[/[0:0:0:0:0:0:0:1%0]:48486] logged in with entity id 671 at ([world]19.5, 86.0, -2.5)
+[13:26:59] [Server thread/INFO]: Player982 issued server command: /register password password
+[13:27:01] [Server thread/INFO]: Player982 issued server command: /login password
+[13:27:04] [User Authenticator #1/INFO]: UUID of player Player386 is 383d2669-dd1d-3bb6-9599-ddb9736fd75c
+[13:27:04] [Server thread/INFO]: Player386 joined the game
+[13:27:04] [Server thread/INFO]: Player386[/[0:0:0:0:0:0:0:1%0]:48506] logged in with entity id 679 at ([world]15.5, 84.0, -0.5)
+[13:27:04] [Server thread/INFO]: Player180 issued server command: /register password password
+[13:27:06] [Server thread/INFO]: Player180 issued server command: /login password
+[13:27:09] [User Authenticator #1/INFO]: UUID of player Player798 is b91f0a72-af04-3f0f-855e-a1f30159432b
+[13:27:09] [Server thread/INFO]: Player798 joined the game
+[13:27:09] [Server thread/INFO]: Player798[/[0:0:0:0:0:0:0:1%0]:42232] logged in with entity id 693 at ([world]16.5, 85.0, -11.5)
+[13:27:09] [Server thread/INFO]: Player913 issued server command: /register password password
+[13:27:11] [Server thread/INFO]: Player913 issued server command: /login password
+[13:27:14] [User Authenticator #1/INFO]: UUID of player Player626 is a73b0b5d-2d3b-3ddb-ba64-20632ca9f512
+[13:27:14] [Server thread/INFO]: Player626 joined the game
+[13:27:14] [Server thread/INFO]: Player626[/[0:0:0:0:0:0:0:1%0]:42250] logged in with entity id 703 at ([world]14.5, 84.0, -4.5)
+[13:27:14] [Server thread/INFO]: Player386 issued server command: /register password password
+[13:27:16] [Server thread/INFO]: Player386 issued server command: /login password
+[13:27:17] [Server thread/INFO]: Player352 was slain by _xXx_hades_xXx_
+[13:27:19] [User Authenticator #1/INFO]: UUID of player Player486 is c6ee12ed-7678-319d-87c9-a5de81832a4f
+[13:27:19] [Server thread/INFO]: Player486 joined the game
+[13:27:19] [Server thread/INFO]: Player486[/[0:0:0:0:0:0:0:1%0]:54488] logged in with entity id 716 at ([world]1.5, 78.0, -0.5)
+[13:27:19] [Server thread/INFO]: Player798 issued server command: /register password password
+[13:27:21] [Server thread/INFO]: Player798 issued server command: /login password
+[13:27:24] [User Authenticator #1/INFO]: UUID of player Player550 is 0e2ef6d7-b626-37a3-b614-05b4e8649bce
+[13:27:24] [Server thread/INFO]: Player550 joined the game
+[13:27:24] [Server thread/INFO]: Player550[/[0:0:0:0:0:0:0:1%0]:54502] logged in with entity id 723 at ([world]18.5, 86.0, -3.5)
+[13:27:24] [Server thread/INFO]: Player626 issued server command: /register password password
+[13:27:26] [Server thread/INFO]: Player626 issued server command: /login password
+[13:27:27] [Server thread/INFO]: Player352 issued server command: /register password password
+[13:27:29] [User Authenticator #1/INFO]: UUID of player Player571 is 5d4844c1-110f-375f-8c73-6803b7a61e5d
+[13:27:29] [Server thread/INFO]: Player571 joined the game
+[13:27:29] [Server thread/INFO]: Player571[/[0:0:0:0:0:0:0:1%0]:57530] logged in with entity id 730 at ([world]2.5, 75.0, -7.5)
+[13:27:29] [Server thread/INFO]: Player352 issued server command: /login password
+[13:27:29] [Server thread/INFO]: Player486 issued server command: /register password password
+[13:27:31] [Server thread/INFO]: Player486 issued server command: /login password
+[13:27:32] [Server thread/INFO]: Player967 was slain by _xXx_hades_xXx_
+[13:27:34] [User Authenticator #1/INFO]: UUID of player Player660 is fc1768ff-17ae-39e8-bef2-f3e0d98306ba
+[13:27:34] [Server thread/INFO]: Player660 joined the game
+[13:27:34] [Server thread/INFO]: Player660[/[0:0:0:0:0:0:0:1%0]:57542] logged in with entity id 739 at ([world]6.5, 79.0, -4.5)
+[13:27:34] [Server thread/INFO]: Player550 issued server command: /register password password
+[13:27:36] [Server thread/INFO]: Player550 issued server command: /login password
+[13:27:39] [User Authenticator #1/INFO]: UUID of player Player115 is 343a2278-4579-3a59-8a3a-aa2690a75202
+[13:27:39] [Server thread/INFO]: Player115 joined the game
+[13:27:39] [Server thread/INFO]: Player115[/[0:0:0:0:0:0:0:1%0]:35904] logged in with entity id 749 at ([world]13.5, 83.0, -1.5)
+[13:27:39] [Server thread/INFO]: Player571 issued server command: /register password password
+[13:27:41] [Server thread/INFO]: Player571 issued server command: /login password
+[13:27:42] [Server thread/INFO]: Player967 issued server command: /register password password
+[13:27:44] [User Authenticator #1/INFO]: UUID of player Player532 is 3e1fbeae-13f8-3fbb-9842-63bc739da918
+[13:27:44] [Server thread/INFO]: Player532 joined the game
+[13:27:44] [Server thread/INFO]: Player532[/[0:0:0:0:0:0:0:1%0]:35906] logged in with entity id 756 at ([world]16.5, 85.0, -9.5)
+[13:27:44] [Server thread/INFO]: Player660 issued server command: /register password password
+[13:27:44] [Server thread/INFO]: Player967 issued server command: /login password
+[13:27:46] [Server thread/INFO]: Player660 issued server command: /login password
+[13:27:49] [User Authenticator #1/INFO]: UUID of player Player60 is 53335878-3f56-39c8-893b-77b74c9ca2e1
+[13:27:49] [Server thread/INFO]: Player60 joined the game
+[13:27:49] [Server thread/INFO]: Player60[/[0:0:0:0:0:0:0:1%0]:42382] logged in with entity id 762 at ([world]9.5, 80.0, -3.5)
+[13:27:49] [Server thread/INFO]: Player115 issued server command: /register password password
+[13:27:51] [Server thread/INFO]: Player115 issued server command: /login password
+[13:27:54] [User Authenticator #1/INFO]: UUID of player Player936 is 0ecc5f64-1f20-34a1-a889-f88d84dd36f3
+[13:27:54] [Server thread/INFO]: Player936 joined the game
+[13:27:54] [Server thread/INFO]: Player936[/[0:0:0:0:0:0:0:1%0]:42386] logged in with entity id 767 at ([world]15.5, 84.0, 0.5)
+[13:27:54] [Server thread/INFO]: Player532 issued server command: /register password password
+[13:27:54] [Server thread/INFO]: Player486 was slain by _xXx_hades_xXx_
+[13:27:56] [Server thread/INFO]: Player532 issued server command: /login password
+[13:27:59] [User Authenticator #1/INFO]: UUID of player Player774 is 1ef891cf-32a6-31f4-b463-6277834cb67f
+[13:27:59] [Server thread/INFO]: Player774 joined the game
+[13:27:59] [Server thread/INFO]: Player774[/[0:0:0:0:0:0:0:1%0]:44760] logged in with entity id 780 at ([world]6.5, 79.0, -3.5)
+[13:27:59] [Server thread/INFO]: Player60 issued server command: /register password password
+[13:28:01] [Server thread/INFO]: Player60 issued server command: /login password
+[13:28:04] [User Authenticator #1/INFO]: UUID of player Player138 is 9a3e00a5-5f02-3e54-a9f0-2e9c904f0bd5
+[13:28:04] [Server thread/INFO]: Player138 joined the game
+[13:28:04] [Server thread/INFO]: Player138[/[0:0:0:0:0:0:0:1%0]:44768] logged in with entity id 782 at ([world]0.5, 78.0, 5.5)
+[13:28:04] [Server thread/INFO]: Player936 issued server command: /register password password
+[13:28:05] [Server thread/INFO]: Player486 issued server command: /register password password
+[13:28:06] [Server thread/INFO]: Player936 issued server command: /login password
+[13:28:07] [Server thread/INFO]: Player486 issued server command: /login password
+[13:28:09] [User Authenticator #1/INFO]: UUID of player Player824 is 577679a7-fd79-34ce-82ca-9e17c30582b1
+[13:28:09] [Server thread/INFO]: Player824 joined the game
+[13:28:09] [Server thread/INFO]: Player824[/[0:0:0:0:0:0:0:1%0]:55796] logged in with entity id 790 at ([world]1.5, 77.0, -2.5)
+[13:28:09] [Server thread/INFO]: Player774 issued server command: /register password password
+[13:28:11] [Server thread/INFO]: Player774 issued server command: /login password
+[13:28:12] [Server thread/INFO]: Stopping server
+[13:28:12] [Server thread/INFO]: Saving players
+[13:28:12] [Server thread/INFO]: _xXx_hades_xXx_ lost connection: Server closed
+[13:28:13] [Server thread/INFO]: _xXx_hades_xXx_ left the game
+[13:28:13] [Server thread/INFO]: Player35 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player35 left the game
+[13:28:13] [Server thread/INFO]: Player394 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player394 left the game
+[13:28:13] [Server thread/INFO]: Player879 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player879 left the game
+[13:28:13] [Server thread/INFO]: Player245 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player245 left the game
+[13:28:13] [Server thread/INFO]: Player274 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player274 left the game
+[13:28:13] [Server thread/INFO]: Player945 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player945 left the game
+[13:28:13] [Server thread/INFO]: Player982 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player982 left the game
+[13:28:13] [Server thread/INFO]: Player180 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player180 left the game
+[13:28:13] [Server thread/INFO]: Player913 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player913 left the game
+[13:28:13] [Server thread/INFO]: Player386 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player386 left the game
+[13:28:13] [Server thread/INFO]: Player798 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player798 left the game
+[13:28:13] [Server thread/INFO]: Player626 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player626 left the game
+[13:28:13] [Server thread/INFO]: Player352 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player352 left the game
+[13:28:13] [Server thread/INFO]: Player550 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player550 left the game
+[13:28:13] [Server thread/INFO]: Player571 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player571 left the game
+[13:28:13] [Server thread/INFO]: Player967 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player967 left the game
+[13:28:13] [Server thread/INFO]: Player660 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player660 left the game
+[13:28:13] [Server thread/INFO]: Player115 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player115 left the game
+[13:28:13] [Server thread/INFO]: Player532 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player532 left the game
+[13:28:13] [Server thread/INFO]: Player60 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player60 left the game
+[13:28:13] [Server thread/INFO]: Player936 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player936 left the game
+[13:28:13] [Server thread/INFO]: Player486 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player486 left the game
+[13:28:13] [Server thread/INFO]: Player774 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player774 left the game
+[13:28:13] [Server thread/INFO]: Player138 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player138 left the game
+[13:28:13] [Server thread/INFO]: Player824 lost connection: Server closed
+[13:28:13] [Server thread/INFO]: Player824 left the game
+[13:28:13] [Server thread/INFO]: Saving worlds
+[13:28:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:28:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:28:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:28:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:28:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:28:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:28:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:28:20] [Server thread/INFO]: Flushing Chunk IO
+[13:28:20] [Server thread/INFO]: Closing Thread Pool
+[13:28:20] [Server thread/INFO]: Closing Server

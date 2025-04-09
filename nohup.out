@@ -1,0 +1,155 @@
+[🔥] Web server live at http://localhost:3000
+[🌍] Web Public URL: https://42c7-13-71-3-102.ngrok-free.app
+[🎮] Minecraft IP: 0.tcp.in.ngrok.io:10129
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[🟢 MC]: Starting org.bukkit.craftbukkit.Main
+
+[🟢 MC]: System Info: Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS) Host: Linux 6.8.0-1021-azure (amd64)
+Loading libraries, please wait...
+
+[🟢 MC]: 2025-04-08 19:40:02,992 ServerMain WARN Advanced terminal features are not available in this environment
+
+[🟢 MC]: [19:40:07 INFO]: Building unoptimized datafixer
+
+[🟢 MC]: [19:40:09 INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+
+[🟢 MC]: [19:40:13 INFO]: Loaded 7 recipes
+
+[🟢 MC]: [19:40:15 INFO]: Starting minecraft server version 1.19
+
+[🟢 MC]: [19:40:15 INFO]: Loading properties
+
+[🟢 MC]: [19:40:15 INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
+
+[🟢 MC]: [19:40:16 INFO]: Server Ping Player Sample Count: 12
+
+[🟢 MC]: [19:40:16 INFO]: Using 4 threads for Netty based IO
+
+[🟢 MC]: [19:40:16 INFO]: Default game type: SURVIVAL
+
+[🟢 MC]: [19:40:16 INFO]: Generating keypair
+
+[🟢 MC]: [19:40:17 INFO]: Starting Minecraft server on *:25565
+
+[🟢 MC]: [19:40:17 INFO]: Using epoll channel type
+
+[🟢 MC]: [19:40:17 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:40:17 INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+
+[🟢 MC]: [19:40:17 INFO]: Server permissions file permissions.yml is empty, ignoring it
+
+[🟢 MC]: [19:40:17 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+
+[🟢 MC]: [19:40:17 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:40:17 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:40:17 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:40:17 INFO]: Preparing level "world"
+
+[🟢 MC]: [19:40:30 INFO]: Preparing start region for dimension minecraft:overworld
+
+[🟢 MC]: [19:40:31 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:31 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:31 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:31 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:32 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:32 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:33 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:33 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:34 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:34 INFO]: Time elapsed: 4293 ms
+[19:40:34 INFO]: Preparing start region for dimension minecraft:the_nether
+
+[🟢 MC]: [19:40:34 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:34 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:35 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:35 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:36 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:36 INFO]: Time elapsed: 2479 ms
+[19:40:36 INFO]: Preparing start region for dimension minecraft:the_end
+
+[🟢 MC]: [19:40:36 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:37 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:37 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:38 INFO]: Preparing spawn area: 0%
+
+[🟢 MC]: [19:40:38 INFO]: Time elapsed: 1813 ms
+
+[🟢 MC]: [19:40:38 INFO]: Running delayed init tasks
+
+[🟢 MC]: [19:40:38 INFO]: Done (23.028s)! For help, type "help"
+
+[🟢 MC]: [19:40:38 INFO]: Timings Reset
+
+[🟢 MC]: [19:40:41 WARN]: UUID of added entity already exists: EntitySheep['Sheep'/46, uuid='c0545afd-d748-4495-bd70-ee7ef722fa0b', l='ServerLevel[world]', x=3.50, y=114.00, z=75.27, cpos=[0, 4], tl=478800, v=false]
+
+[🟢 MC]: [19:40:41 WARN]: UUID of added entity already exists: EntityCow['Cow'/107, uuid='20c6049d-5008-4b11-a411-2ca8f77152dd', l='ServerLevel[world]', x=48.49, y=111.00, z=171.81, cpos=[3, 10], tl=16597, v=false]
+
+[🟢 MC]: [19:40:41 WARN]: UUID of added entity already exists: EntitySheep['Sheep'/160, uuid='992332d9-3f36-4f36-bce5-86b4396e103a', l='ServerLevel[world]', x=25.22, y=110.00, z=150.78, cpos=[1, 9], tl=375161, v=false]
+
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+[💖] Correct repo pinged: sarvesh8456/noobdarti - 200 OK
+bash: .bashrc: No such file or directory

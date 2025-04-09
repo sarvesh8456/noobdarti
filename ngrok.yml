@@ -1,0 +1,12 @@
+version: "2"
+authtoken: 2UykX35mjxyI1qjOH50is53emVo_4WMnaCnTcysma9X2uDSyc
+tunnels:
+  bot0:
+    proto: tcp
+    addr: 3000
+  bot1:
+    proto: tcp
+    addr: 3001
+  bot2:
+    proto: tcp
+    addr: 3002

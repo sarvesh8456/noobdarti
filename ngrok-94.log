@@ -1,0 +1,5 @@
+t=2025-04-06T17:37:47+0000 lvl=info msg="no configuration paths supplied"
+t=2025-04-06T17:37:47+0000 lvl=info msg="ignoring default config path, could not stat it" path=/home/codespace/.ngrok2/ngrok.yml err="stat /home/codespace/.ngrok2/ngrok.yml: no such file or directory"
+t=2025-04-06T17:37:47+0000 lvl=warn msg="can't bind default web address, trying alternatives" obj=web addr=127.0.0.1:4040
+t=2025-04-06T17:37:47+0000 lvl=crit msg="command failed" err="listen tcp 127.0.0.1:4049: bind: address already in use"
+listen tcp 127.0.0.1:4049: bind: address already in use
