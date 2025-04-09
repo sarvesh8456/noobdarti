@@ -1,0 +1,35 @@
+name: Revive Codespace & Run alive.js
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # every 4 hours
+  workflow_dispatch:
+
+
+jobs:
+  revive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧽 Clean up previous Codespace (if needed)
+        run: echo "Skipping Codespace cleanup – handled externally"
+
+      - name: 🧾 Checkout your repo
+        uses: actions/checkout@v3
+
+      - name: 🧱 Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # or whatever you use
+
+      - name: 📦 Install dependencies
+        run: |
+          npm install
+
+      - name: 🔁 Git pull latest
+        run: |
+          git pull
+
+      - name: 🚀 Run alive.js
+        run: |
+          node /workspaces/noobdarti/alive.js
