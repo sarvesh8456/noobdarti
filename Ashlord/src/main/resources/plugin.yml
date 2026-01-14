@@ -1,0 +1,10 @@
+name: Ashlord
+main: io.ashlord.AshlordPlugin
+version: 1.0.0
+api-version: '1.21'
+description: Assigns a red "Ashlord" rank to the top online balance player.
+softdepend: [Vault]
+commands:
+  ashlord:
+    description: Ashlord plugin commands
+    usage: /<command> check|reload

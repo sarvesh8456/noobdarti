@@ -1,0 +1,90 @@
+name: VerifyXDiscord
+version: 1.0.0
+main: io.verifyx.Main
+api-version: '1.20'
+description: Discord verification system for Minecraft with AI security
+author: Hades
+website: https://example.com
+
+prefix: VerifyX
+load: POSTWORLD
+
+# Permissions
+permissions:
+  verifyx.admin:
+    description: Full access to all admin commands
+    default: op
+    children:
+      verifyx.admin.security: true
+      verifyx.admin.view: true
+  
+  verifyx.admin.security:
+    description: Access to security management commands
+    default: op
+  
+  verifyx.admin.view:
+    description: View database and statistics
+    default: op
+  
+  verifyx.user:
+    description: Allows players to use verification commands
+    default: true
+  
+  verifyx.user.verify:
+    description: Allow players to verify their account
+    default: true
+    children:
+      verifyx.user: true
+
+# Commands - ALL AT SAME INDENTATION LEVEL
+commands:
+  verifyadmin:
+    description: Admin commands for VerifyX
+    usage: /verifyadmin <help|reload|status|forceverify|unverify|cleardata|showdatabase|checkdata|clearcache|debug|security>
+    aliases: [va, vadmin]
+    permission: verifyx.admin
+    permission-message: You don't have permission to use admin commands!
+
+  aisecurity:
+    description: AI Security management commands
+    usage: /aisecurity <block|kick|report|mode|scan|list|ipinfo|firstplayer|altcheck>
+    aliases: [ais, security]
+    permission: verifyx.admin.security
+    permission-message: You don't have permission to use AI security commands!
+
+  verify:
+    description: Start the verification process
+    usage: /verify
+    aliases: [v]
+    permission: verifyx.user
+    permission-message: You don't have permission to verify!
+  
+  checkverify:
+    description: Check verification status
+    usage: /checkverify [player]
+    aliases: [cv, checkv]
+    permission: verifyx.user
+    permission-message: You don't have permission to check verification!
+  
+  link:
+    description: Link your Minecraft account with Discord
+    usage: /link <OTP>
+    aliases: [l]
+    permission: verifyx.user
+    permission-message: You don't have permission to link your account!
+
+  register:
+    description: Register an in-game account for login security
+    usage: /register <password> <password>
+    permission: verifyx.user
+    permission-message: You don't have permission to register!
+
+  login:
+    description: Login to your account secured by the plugin
+    usage: /login <password>
+    permission: verifyx.user
+    permission-message: You don't have permission to login!
+
+# Plugin load order (optional)
+loadbefore: []
+depend: []

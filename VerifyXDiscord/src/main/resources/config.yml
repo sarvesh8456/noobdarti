@@ -1,0 +1,245 @@
+# VerifyXDiscord Configuration
+# Main configuration is in plugin-generated/info.txt
+# This file contains additional plugin settings
+
+# ========== SUPABASE CONFIGURATION ==========
+# Get these from your Supabase project -> Settings -> API
+supabase:
+  url: ""
+  anon-key: ""
+  service-role-key: ""
+
+discord:
+  bot-token: ""
+  guild-id: ""
+  verify-channel-id: ""
+  verified-role-id: ""
+  
+  # Embed settings
+  embed-color: "#5865F2" # Discord blurple
+  embed-title: "Minecraft Account Verification"
+  embed-description: "Click the button below to verify your Minecraft account"
+
+# ========== VERIFICATION WORLD SETTINGS ==========
+verification-world:
+  name: "verifyx_world"
+  size: 5 # In chunks (5x5 chunks = 80x80 blocks)
+  spawn-x: 0
+  spawn-y: 65
+  spawn-z: 0
+  
+  # World environment
+  environment: "NORMAL" # NORMAL, NETHER, or THE_END
+  difficulty: "PEACEFUL"
+  pvp: false
+  monsters: false
+  animals: false
+
+# ========== OTP SETTINGS ==========
+otp:
+  length: 6
+  charset: "0123456789" # You can customize this
+  expiry-minutes: 10
+  max-attempts: 3
+  cooldown-seconds: 60
+  
+  # Where to send OTP
+  send-to-chat: true
+  send-as-title: true
+  send-as-actionbar: true
+
+# ========== MESSAGES ==========
+messages:
+  # Join messages
+  join-title: "&6&lVerifyX &8» &7Verification Required"
+  join-subtitle: "&7Check chat for OTP code"
+  
+  # OTP messages
+  otp-received: "&aYour OTP code is: &e&l{otp}"
+  otp-expiry: "&7This code expires in &e{minutes} minutes"
+  otp-usage: "&7Use &e/verify {otp} &7in the verification channel on Discord"
+  
+  # Verification messages
+  verification-success: "&a✅ Verification successful! You can now join the server."
+  verification-failed: "&c❌ Verification failed. Please try again."
+  verification-pending: "&e⏳ Please wait while we verify your account..."
+  
+  # Error messages
+  already-verified: "&c❌ Your account is already verified!"
+  discord-linked: "&c❌ This Discord account is already linked to another Minecraft account!"
+  otp-expired: "&c❌ OTP code has expired. Please generate a new one."
+  otp-invalid: "&c❌ Invalid OTP code. Please try again."
+  rate-limited: "&c⏰ You are being rate limited. Please wait {seconds} seconds."
+  
+  # Admin messages
+  admin-force-verify: "&a✅ Force verified player: &e{player}"
+  admin-unverify: "&c❌ Unverified player: &e{player}"
+  admin-list-header: "&6&lVerified Players &7({count}):"
+
+# ========== PERFORMANCE SETTINGS ==========
+performance:
+  cache-ttl-seconds: 300
+  cleanup-interval-minutes: 5
+  max-concurrent-verifications: 50
+  
+  # Database connection pool
+  db-max-pool-size: 10
+  db-min-idle: 2
+  db-connection-timeout: 30000
+  db-idle-timeout: 600000
+
+# ========== LOGGING ==========
+logging:
+  verbose: false
+  log-verifications: true
+  log-errors: true
+  log-database: false
+  log-discord: true
+  log-whitelist: true
+  
+# ========== OPTIONAL INTEGRATIONS ==========
+integrations:
+  # Enable runtime checks and handling for ViaVersion and Geyser/Floodgate (Bedrock)
+  enable-via-geyser: true
+  
+  # Log file settings
+  max-log-files: 10
+  max-log-size-mb: 10
+
+# ========== ENTERPRISE AI SECURITY SETTINGS ==========
+ai-security:
+  # Main toggle
+  enabled: true
+  learning-mode: true
+  enterprise-mode: true
+  require-multiple-factors: true
+  
+  # Thresholds
+  trust-threshold: 85        # Must be 85%+ certain
+  block-threshold: 95        # 95%+ for permanent block
+  kick-threshold: 70         # 70%+ for auto-kick
+  warning-threshold: 50      # 50%+ for monitoring
+  
+  # Data requirements
+  min-data-points: 50
+  max-false-positive-rate: 2  # Max 2% false positives
+  session-history-size: 100
+  behavioral-samples: 200
+  
+  # Alt detection
+  max-alts-per-ip: 2
+  prevent-alt-otp: true
+  auto-block-alts: true
+  # If true, when strict alt policy (max-alts-per-ip <= 1) triggers,
+  # admin-forced verifications will be removed and affected players kicked.
+  # If false, the plugin will NOT purge/kick players automatically (only log/warn).
+  alt_kick: true
+  # Controls behavior for accounts flagged as alts when attempting OTP:
+  # - true: enforce OTP rules (default, may block OTP for alts)
+  # - false: allow alt accounts to join without OTP (they remain unverified in tab)
+  alt_otp: true
+  # Maximum number of trusted IP addresses per verified account. Default 1 (strict).
+  max-trusted-ips: 1
+  # IP confirmation flow has been removed; use loginsecurity instead.
+  detect-alt-clusters: true
+  discord-ip-confirmation: false # Disabled: replaced by loginsecurity flow
+  confirmation-timeout-seconds: 300 # (unused) Seconds before a pending confirmation times out and session is kicked
+  otp-wait-freeze-seconds: 2 # Seconds to freeze player before delivering OTP (prevents movement/chat while OTP arrives)
+  
+  # Device fingerprinting
+  fingerprint-devices: true
+  track-hardware-changes: true
+  detect-bot-devices: true
+  
+  # Behavioral analysis
+  analyze-movement: true
+  analyze-clicks: true
+  analyze-chat: true
+  analyze-commands: true
+  
+  # Network analysis
+  detect-vpn-proxy: true
+  check-ip-reputation: true
+  analyze-network-patterns: true
+  
+  # External APIs (leave empty to disable)
+  external-apis:
+    ipqualityscore-key: ""
+    abuseipdb-key: ""
+    shodan-key: ""
+    virustotal-key: ""
+  
+  # Threat intelligence
+  update-threat-feeds: true
+  threat-feed-interval-hours: 24
+  cache-threat-data: true
+  cache-ttl-hours: 168  # 7 days
+  
+  # Monitoring
+  monitor-suspicious: true
+  auto-start-monitoring: true
+  monitor-interval-seconds: 30
+  detailed-logging: false
+  
+  # Performance
+  max-cache-size: 10000
+  cache-expire-minutes: 10
+  thread-pool-size: 4
+  scheduled-pool-size: 2
+  
+  # Notifications
+  notify-admins: true
+  notify-discord: false
+  discord-webhook: ""
+  notify-on-block: true
+  notify-on-kick: true
+  
+  # Auto actions
+  auto-block-botnets: true
+  auto-block-malware-ips: true
+  auto-block-known-vpns: true
+  auto-kick-suspicious: true
+  
+  # Whitelist integration
+  bypass-whitelisted: true
+  trusted-players-bypass: true
+  admin-bypass: true
+  
+  # Learning rate
+  trust-increment: 2
+  trust-decrement: 5
+  anomaly-decay-rate: 1
+  pattern-learning-rate: 0.1
+  
+  # Privacy settings
+  anonymize-ip: false
+  hash-identifiers: true
+  encrypt-stored-data: false
+  data-retention-days: 30
+
+# ========= Login Security =========
+loginsecurity:
+  enabled: true
+  pbkdf2-iterations: 100000
+  max-failed-attempts: 3
+  # Session expiration in minutes. 0 = require login on every join; >0 = allow automatic re-auth if player rejoins within this many minutes
+  session-expiry-minutes: 10
+  # Per-account brute force policy (defaults suggested)
+  failed-attempts-before-cooldown: 5
+  cooldown-first-minutes: 1
+  cooldown-second-minutes: 10
+  enable-discord-escalation: true
+  # When enabled, players must /register and /login to use the server; admins can reset with /verifyadmin loginsecurity reset <player>
+
+# ========== UPDATE CHECKER ==========
+update-checker:
+  enabled: true
+  check-interval-hours: 24
+  notify-on-join: true
+  download-url: "https://github.com/yourusername/VerifyXDiscord/releases"
+
+# GUI customization (live)
+gui:
+  primary-color: "DARK_PURPLE"
+  accent-color: "AQUA"
+  cyberpunk-style: true

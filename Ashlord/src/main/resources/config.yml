@@ -1,0 +1,9 @@
+# Ashlord plugin configuration
+# Interval in seconds between automatic checks (default 5 minutes = 300 seconds)
+interval-seconds: 300
+# Hex color for the Ashlord prefix (without #)
+ashlord-color: "FF2D2D"
+# Text used as the prefix displayed before the name
+prefix-text: "Ashlord"
+# Whether to send a message to players when they gain/lose the Ashlord title
+announce: true
